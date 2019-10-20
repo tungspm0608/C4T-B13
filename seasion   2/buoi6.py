@@ -1,4 +1,3 @@
-
 while True:
     matkhau = input('what is your pass?')
     print(matkhau)
@@ -7,7 +6,4 @@ while True:
         break   
     else:
         print("sai r nhap lai")
-
-            
-
 
