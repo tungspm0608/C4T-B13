@@ -1,2 +1,4 @@
-a = input('so ban muon chon la gi?')
-print(len(a))
+import pyglet
+music = pyglet.resource.media("sample.mp3")
+music.play()
+pyglet.app.run()
