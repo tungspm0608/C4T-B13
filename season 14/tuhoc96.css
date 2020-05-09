@@ -1,0 +1,31 @@
+html,body,#sapsep {
+    height: 100%;
+}
+#sapsep {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+#tatcabong {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.bong {
+    width: 60px;
+    height: 60px;
+    border: 2px blanchedalmond solid;
+    border-radius: 100%;
+    cursor: pointer;
+    ;
+}
+#somaungaunhien {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#diem {
+    font-size: 90px;
+    font-style: unset;
+}

@@ -1,0 +1,94 @@
+@import url('https://font.googeapisgoogeapis.com/csscss?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #00adcc;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+.container{
+    position: relative;
+    padding: 20px 50px;
+}
+
+.input{
+    width: 350px;
+    border: 30px #ffffff;
+    outline: none;
+    background: transperent;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+::-moz-input-placeholder{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.close-btnbtn{
+    position: absolute;
+    top: 29px;
+    right: 80px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.close-btn.active{
+    opacity: 1;
+    animation: animate 0.5s linear
+}
+
+@keyframes animate{
+    0%{
+        transformform: scale(1);
+    }
+    25%{
+        transformform: scale(1.25);
+    }
+    50%{
+        transformform: scale(1.51);
+    }
+    75%{
+        transformform: scale(1.25);
+    }
+    100%{
+        transformform: scale(1);
+    }
+}
+
+
+
+    

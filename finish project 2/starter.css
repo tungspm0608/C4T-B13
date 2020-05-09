@@ -1,0 +1,52 @@
+footer{
+    bottom: 0;
+    height: 135px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+  
+    
+  
+    nav.main ul{
+      list-style-type: none;
+      margin-bottom: 0;
+      padding-left: 0;
+    }
+  
+    nav.main ul li{
+      display: inline-block;
+      float: left;
+      line-height: 1;
+      margin-top: -1.85rem;
+      text-align: center;
+      width: 20%;
+    }
+  
+    nav.main ul li span{
+      display: block;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+    }
+  
+    nav.main ul li a{
+      color: #2D2D2D;
+      display: block;
+      font-size: 2rem;
+      padding: 2rem;
+    }
+  
+    nav.main ul li a.highlight{
+      background-color: rgb(71, 9, 71);
+      box-shadow: 0 0 10px 3px rgba(69, 110, 129, 0.747);
+      -webkit-box-shadow: 0 0 10px 3px rgba(78, 73, 73, 0.425);
+      -moz-box-shadow: 0 0 10px 3px rgba(106, 64, 107, 0.89);
+  
+      border-radius: 5px 5px 0 0;
+      margin-top: -0.3rem;
+      padding-top: 3.5rem;
+    }
+  
+  

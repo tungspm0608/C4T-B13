@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Body</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="number"><button id="search">search</button>
+    <div id="root"></div>
+    <ul id="myMenu">
+        <li><a href="http://www.medicomtoystore.com/">Basketball</a></li>
+        <li><a href="https://www.google.com/">NBAteams</a></li>
+        <li><a href="https://www.nasa.gov/">Shoes</a></li>
+    </ul>
+    
+    <h1>This is a heading</h1>
+    <p>This is a paragraph:</p>
+    <img src="https://www.psal.org/images/Articles/2019/201912231320446377.jpg">
+    <p>NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA). ... Since its establishment, most US space exploration efforts have been led by NASA, including the Apollo Moon landing missions, the Skylab space station, and later the Space Shuttle"</p>
+
+    <img src="https://i.pinimg.com/originals/30/b8/ea/30b8eab7b86712c298b6aa386812d83d.jpg">
+    <div class="box">JORDAN</div>
+    <div class="box">LEBRONN</div>
+    <div class="box">KD</div>
+    <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    <div id="qs">Can you clear all question of NBA : 
+        <div class="answer">1.</div>        
+        <div class="answer">2.</div>
+        <div class="answer">3.</div>
+        <div class="answer">4.</div>
+    </div> 
+        
+    <h2>Height Converter</h2>
+    <p>Choose a value in Feet to convert it to Meters:</p>
+
+    <p>
+    <label>Feet</label>
+    <input id="inputFeet" type="number" placeholder="hmmmmm" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+    </p>
+    <p>Meters: <span id="outputMeters"></span></p>
+
+    <script>
+    function LengthConverter(valNum) {
+    document.getElementById("outputMeters").innerHTML=valNum/3.2808;
+    }
+    </script>
+    </body>
+    </html>
+
+
+    <h2>Weight Converter</h2>
+    <p>Choose a value in Pounds to convert it to Kilograms:</p>
+
+    <p>
+    <label>Pounds</label>
+    <input id="inputPounds" type="number" placeholder="hmmmm" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p>
+    <p>Kilograms: <span id="outputKilograms"></span></p>
+
+    
+<h2>Statistic Table</h2>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Height</th>
+    <th>Weight</th>
+  </tr>
+  <tr>
+    <td>Giannis</td>
+    <td>Antetokounmpo</td>
+    <td>6.92 ft</td>
+    <td></td>
+    <td>243 lb</td>
+  </tr>
+  <tr>
+    <td>Lebron</td>
+    <td>James</td>
+    <td>6.75 ft</td>
+    <td>249 lb</td>
+  </tr>
+  <tr>
+    <td>Damian</td>
+    <td>Lillard</td>
+    <td>6.16 ft</td>
+    <td>194 lb</td>
+  </tr>
+</table>
+
+    
+    <script src="tuhoc97.js"></script>
+</body>
+</html>
+
+
+
+    
+
+
+
+

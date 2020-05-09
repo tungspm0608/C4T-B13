@@ -1,14 +1,14 @@
-from random import *
-while True:
-    a = randint(0,100)
-    b = randint(0,100)
-    c = randint(0,1)
-    d = randint(0,2)
-    e = randint(0,2)
-    diem = 0
+from random import *        
+while True:                
+    a = randint(0,100)        
+    b = randint(0,100)       
+    c = randint(0,1)          
+    d = randint(0,2)          
+    e = randint(0,2)          
+    diem = 0                   
 
 
-    if c == 0:
+    if c == 0:                                    
         print(a,'+',b,'=')
         if d == 0:
             print(a+b)

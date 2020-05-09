@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.container-fluid{
+  padding: 0px 0px;
+  }
+ul{
+  margin: 0px;
+  }
+
+li{
+  display:inline-block;
+  padding: 10px 10px;
+  color: yellow;
+  border-right: dashed 1px rgb(238, 69, 39);
+  }
+
+.kobe{
+  margin-top: 10px;
+  }
+
+.title-hero{
+  padding: 50px 50px;
+  background-color: black;
+  color: yellow;
+  }
+
+h1{
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 4em;
+  }
+
+h2{
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 1.5em;
+  }
+
+.core{
+  padding: 75px;
+}
+
+footer{
+  color: rgb(190, 19, 19);
+  background-color: rgb(211, 19, 19);
+  text-align: center;
+  font-family: roboto;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+.button{
+  padding: 10px 10px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.button:hover{
+  background-color:black;
+  color: yellow;
+  text-decoration: none;
+}
+
+.more{
+  margin-top: 50px;
+  text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #100833;
+  }
+  .container{
+    background: #472410;
+    border-radius: 10px;
+    max-width: 900px;
+  }
+  #banner{
+    height: 400px;
+    max-width: 900px;
+    background: url("https://i.pinimg.com/originals/48/0f/95/480f95e5861055f5d4f8c7cb6240f150.jpg");
+    background-position: center; 
+    background-size: cover;
+    border-style: solid;
+    border-size: 3px;
+    border-color: rgb(28, 107, 117);
+    border-radius: 3px;
+    margin: 10px 0px;
+  }
+  
+  #AS{
+    padding: 5px 10px; 
+    border: 3px solid rgb(97, 15, 72);
+    border-radius: 3px;
+  }
+  a{
+    color: black;
+    text-decoration: underline;
+  }
+  ul{
+    display: inline-block;
+  }
+  .quote{
+    font-size: 18px;
+  }
+  #flex {
+    display: flex;
+  }
+  iframe {
+    margin-left: 30px ;  
+    margin-top: 20px;
+    width: 620px;  
+    height: 400px;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>NBA: Professional Converter</title>
+<style>
+  #background {
+    background-color: blue;
+    width: 490px;
+  }
+  body {
+    background-image: url(https://i1.wp.com/dinhduongdoisong.com/wp-content/uploads/2017/04/chieucao-1024x520.jpg?resize=635%2C322);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 500px;
+    background-position-y: 20px;
+    background-size: 1000px;
+  }
+  
+</style>
+<body>
+<div id="background">
+  <h2>Height Converter</h2>
+  <p>Choose a value in Feet to convert it to Meters:</p>
+
+  <p>
+    <label>Feet</label>
+    <input id="inputFeet" type="number" placeholder="hmmmmm" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+  </p>
+  <p>Meters: <span id="outputMeters"></span></p>
+
+
+
+
+  <h2>Weight Converter</h2>
+  <p>Choose a value in Pounds to convert it to Kilograms:</p>
+
+  <p>
+    <label>Pounds</label>
+    <input id="inputPounds" type="number" placeholder="hmmmm" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+  </p>
+  <p>Kilograms: <span id="outputKilograms"></span></p>
+</div>  
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
+}
+function LengthConverter(valNum) {
+  document.getElementById("outputMeters").innerHTML=valNum/3.2808;
+}
+</script>
+
+</body>
+</html>
+
+
+

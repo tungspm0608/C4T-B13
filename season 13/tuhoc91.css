@@ -1,0 +1,47 @@
+.coanh {
+    width: 250px;
+    height: 200px;   
+}
+h1 {
+    background-color: cornflowerblue;
+    font-size: 90px;
+    color: whitesmoke;
+}
+h2 {
+    color: blue;
+}
+.maudo {
+    font-size: 20px;
+    color: crimson;
+}
+#backgroundcolor {
+    display: flex;
+    flex-flow: row wrap ;
+    background-color: whitesmoke;
+    background-size: 100%;
+}
+h3 {
+    color: blue;
+}
+#backgroundcolor1 {
+    background-image: url(https://toplist.vn/images/800px/pho-bat-dan-93249.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.backgroundcolor2 {
+    margin: 10px;
+}
+.backgroundcolor3 {
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+}
+#hello {
+    margin-left: 120px;
+    color: red;
+    font-style: oblique;
+}
+#hello1 {
+    background-color: yellow;
+}

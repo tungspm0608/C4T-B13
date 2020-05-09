@@ -1,0 +1,44 @@
+body {
+    background-color: #0b1b1b;
+    
+  }
+  
+#text-box {
+   border: 2px solid rgb(71, 35, 231);
+    font-family: Century Gothic, sans-serif;
+  
+}
+  
+h2 {
+  font-family: Century Gothic, sans-serif;
+    font-weight: bold;
+  }
+  
+ul {
+    list-style-type: none;
+  }
+  
+li {font-family: Century Gothic, sans-serif;
+    font-weight: bold;}
+  
+#name_field {font-family: Century Gothic, sans-serif;
+    font-weight: bold;}
+  
+#search {
+    position:relative;
+    float: left;
+      border: 2px solid #3e288f;
+    background-color: #85640a;
+    padding: 10px 40px 10px 40px;
+    margin:20px 20px 10px 10px;
+    text-align: center;
+  }
+  
+#list {
+    border: 2px solid #1ba179;
+    background-color: #5c1a0a;
+    padding-right: 40px;
+    position:relative;
+    float: left;
+    margin-top: 20px;
+  }
